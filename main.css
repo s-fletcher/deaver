@@ -1,15 +1,36 @@
+body
+{
+  margin: 0;
+}
+.title
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 100px;
+  text-shadow: 1px 1px 2px #aaa;
+  letter-spacing: 5px;
+  animation: fadein 2s;
+}
+#title-shadow
+{
+  color: #aaa;
+  position: absolute;
+  left: calc(50% - 270px); /* 267px */
+  top: 102px;
+}
 #header
 {
   background: #ddd;
-  font-family: "Helvetica", sans-serif;
-  font-size: 20px;
   width: 100%;
   height: 400px;
 }
 #info
 {
   background: #ccc;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   width: 70%;
   height: 400px;
@@ -18,7 +39,7 @@
 #upcoming
 {
   background: #bbb;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   float: left;
   width: 30%;
@@ -27,9 +48,14 @@
 #footer
 {
   background: #aaa;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   width: 100%;
   margin-top: 400px;
   height: 100px;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
