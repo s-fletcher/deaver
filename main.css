@@ -8,18 +8,32 @@ body
   font-size: 50px;
   text-align: center;
   margin: 0;
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 267.5px); /* 267.5px */
+  letter-spacing: 5px;
+  animation: fadein 2s;
+  min-width: 535px;
+}
+.sub-title
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
   position: relative;
-  top: 100px;
-  text-shadow: 1px 1px 2px #aaa;
+  top: 200px;
   letter-spacing: 5px;
   animation: fadein 2s;
 }
 #title-shadow
 {
-  color: #aaa;
+  color: #bbb;
+  text-align: center;
+  text-shadow: #fff 1px 0 100px;
   position: absolute;
-  left: calc(50% - 270px); /* 267px */
-  top: 102px;
+  left: calc(50% - 270px); /* 267.5px */
+  top: 152px;
 }
 #header
 {
@@ -35,6 +49,10 @@ body
   width: 70%;
   height: 400px;
   float: left;
+}
+.content
+{
+  padding-left: 15px;
 }
 #upcoming
 {
