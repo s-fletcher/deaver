@@ -40,6 +40,12 @@ body
   background: #ddd;
   width: 100%;
   height: 400px;
+  overflow: hidden;
+}
+#header-image
+{
+  min-width: 528px;
+  min-height: 400px;
 }
 #info
 {
