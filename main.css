@@ -18,7 +18,7 @@ a {
   float: left;
 }
 .title-container {
-  margin-top: 160px;
+  margin-top: 25vh;
   margin-left: 22.5%;
   width: 55%;
   font-family: 'Montserrat', sans-serif;
@@ -73,7 +73,7 @@ ul {
 }
 img {
   width: 100%;
-  margin-top: 130px;
+  margin-top: 20vh;
   max-width: 830px;
   float: right;
 }
@@ -87,9 +87,9 @@ img {
 
 
 
-@media (max-width:720px) {
+@media (max-width:900px) {
   .title-container {
-    margin-top: 300px;
+    margin-top: 30vh;
     margin-left: 5%;
     width: 90%;
     font-family: 'Montserrat', sans-serif;
@@ -98,12 +98,12 @@ img {
   .subtitle-container {
     margin-top: -2vw;
     margin-left: 5%;
-    width: 90%;
+    width: 80%;
     font-size: 11px;
   }
   img {
     width: 100%;
-    margin-top: 300px;
+    margin-top: 28vh;
   }
   .reveal {
     font-size: 10px;
