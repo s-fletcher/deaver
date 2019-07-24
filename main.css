@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  padding-bottom: 120px;
 }
 a {
   color: inherit;
@@ -40,6 +41,14 @@ a {
   position: absolute;
   bottom: 0;
   text-align: center;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+
 }
 .reveal {
   width: 33%;
@@ -76,18 +85,19 @@ img {
   margin-top: 20vh;
   max-width: 830px;
   float: right;
+  margin-bottom: 120px;
 }
 .footer-right {
   background-color: black;
   height: 50px;
   width: 50%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
 
 
-@media (max-width:900px) {
+@media (max-width:800px) {
   .left {
     float: none;
     width: 100%;
@@ -106,7 +116,7 @@ img {
     height: 70px;
   }
   .title-container {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 15%;
     width: 50%;
     font-family: 'Montserrat', sans-serif;
