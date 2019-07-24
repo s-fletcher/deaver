@@ -2,32 +2,61 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto&display=swap" rel="stylesheet">
     <title>Deaver Brothers</title>
   </head>
   <body>
-    <div id="header">
-      <!-- <img id="header-image" src="images/twins-placeholder.jpg"> -->
-      <!-- <h1 class="title" id="title-shadow">DEAVER BROTHERS</h1> -->
-      <h1 class="title">
-        <span style="color:#1f5ab6;">d</span><span style="color:#1d9b2a;">e</span><span style="color:#f9c10a;">a</span><span style="color:#940a93;">v</span><span style="color:#e8562a;">e</span><span style="color:#e00a5b;">r </span><span style="color:#1f5ab6;">b</span><span style="color:#f9c10a;">r</span><span style="color:#e8562a;">o</span><span style="color:#1d9b2a;">t</span><span style="color:#940a93;">h</span><span style="color:#e00a5b;">e</span><span style="color:#1f5ab6;">r</span><span style="color:#e8562a;">s</span>
-      </h1>
-      <h1 class="sub-title">stand up comedy</h1>
-    </div>
-    <div class="info">
-      <div class="content">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="container">
+      <div class="left">
+        <div class="title-container">
+          <h1>THE DEAVER BROTHERS, <br> STAND-UP COMEDIANS</h1>
+        </div>
+        <div class="subtitle-container">
+          <p>The Deaver Brothers are a comedy duo comprised twin brothers Luke and Cole Deaver. They act, write, and most importantly perform stand-up. </p>
+        </div>
+        <div class="footer-left">
+          <div onmouseover="revealEmail()" onmouseout="unrevealEmail()" class="reveal">
+            <p>EMAIL</p>
+            <ul id="email">
+              <li><a href="mailto:cole.deaver@gmail.com">cole.deaver@gmail.com</a></li>
+              <li><a href="mailto:luke.deaver@gmail.com">luke.deaver@gmail.com</a></li>
+            </ul>
+          </div>
+          <div onmouseover="revealInsta()" onmouseout="unrevealInsta()" class="reveal">
+            <p>INSTAGRAM</p>
+            <ul id="insta">
+              <li><a href="https://www.instagram.com/cadeaver/" target="_blank">@cadeaver</a></li>
+              <li><a href="https://www.instagram.com/lukedeaver/" target="_blank">@lukedeaver</a></li>
+            </ul>
+          </div>
+          <div class="reveal">
+            <p><a href="#">YOUTUBE</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <img src="./images/laughing-placeholder.jpg" alt="">
+        <div class="footer-right"><div>
       </div>
     </div>
-    <div id="contact">
-      <div class="content">
-        <h1>Contact</h1>
-        <img src="https://img.icons8.com/ios/20/000000/secured-letter-filled.png"><p>deaverbrothers@gmail.com</p>
-        <img src="https://img.icons8.com/ios/20/000000/instagram-new-filled.png"><p>@deaverbrothers</p>
-        <img src="https://img.icons8.com/metro/20/000000/twitter.png"><p>@dbrothers</p>
-        <img src="https://img.icons8.com/ios/20/000000/youtube-play-filled.png"><p>dbrotherstv</p>
-      </div>
-    </div>
+
+
+    <script type="text/javascript">
+      function revealEmail() {
+        document.getElementById("email").style.visibility = "visible";
+      }
+      function unrevealEmail() {
+        document.getElementById("email").style.visibility = "hidden";
+      }
+
+      function revealInsta() {
+        document.getElementById("insta").style.visibility = "visible";
+      }
+      function unrevealInsta() {
+        document.getElementById("insta").style.visibility = "hidden";
+      }
+
+    </script>
+
   </body>
 </html>
