@@ -13,11 +13,9 @@ a {
 }
 
 .left {
-  height: 100vh;
   width: 50%;
   padding: 0;
   float: left;
-  position: relative;
 }
 .title-container {
   margin-top: 160px;
@@ -38,7 +36,7 @@ a {
 .footer-left {
   background-color: black;
   height: 120px;
-  width: 100%;
+  width: 50%;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -68,12 +66,10 @@ ul {
 
 
 .right {
-  height: 100vh;
   width: 50%;
   margin: 0;
   padding: 0;
   float: right;
-  position: relative;
 }
 img {
   width: 100%;
@@ -84,7 +80,7 @@ img {
 .footer-right {
   background-color: black;
   height: 50px;
-  width: 100%;
+  width: 50%;
   position: absolute;
   bottom: 0;
 }
@@ -94,16 +90,16 @@ img {
 @media (max-width:720px) {
   .title-container {
     margin-top: 300px;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 90%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vw;
+    font-size: 15px;
   }
   .subtitle-container {
     margin-top: -2vw;
-    margin-left: 10%;
-    width: 80%;
-    font-size: 2vw;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 11px;
   }
   img {
     width: 100%;
